@@ -5,6 +5,7 @@ public class Problem2 {
 	public static int missingnumber(int[] A)
 	{
 		int temp = 0;//holds value to be transfer in array
+		int temp2 = 1;
 
 		for(int g = 0; g < A.length; g++)
 		{	
