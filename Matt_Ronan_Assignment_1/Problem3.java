@@ -5,6 +5,7 @@ public class Problem3 {
 	public static boolean majority(int[] A)
 	{
 		int j = A.length/2;
+		int k = 0;
 		for(int i = 0; i < A.length/2; i++) {
 			if(A[i] == A[j]) {
 				return true;

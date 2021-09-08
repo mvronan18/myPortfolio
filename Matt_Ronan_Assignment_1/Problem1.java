@@ -27,6 +27,7 @@ public class Problem1 {
 		int test1 = 123;
 		int test2 = -95;
 		int test3 = 890;
+		int test4 = 0;
 		
 		
 		System.out.println("Input :" + test1 + " Output: " + reverse(test1));
